@@ -108,7 +108,35 @@
     font-size: 1rem;
 }
 
+/* features section styles */
+
+#features-section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.features-card{
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+.features-card .feature-card-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: opx;
+}
+#experience-badge{
+    padding: 45px 42px;
+}
+#experience-year{
+    font-size: 2.8rem;
+    font-weight: bold;
+}
 /* some facts style */
+.features-section{
+    gap: 110px;
+}
 .facts-container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
